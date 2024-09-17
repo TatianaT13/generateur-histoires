@@ -1,0 +1,31 @@
+# Streamlit pour l'interface utilisateur
+streamlit==1.38.0
+
+# OpenAI pour interagir avec l'API de génération d'histoires
+openai==1.45.1
+
+# Pandas pour les manipulations de données éventuelles
+pandas==2.2.2
+
+# NumPy pour les calculs numériques
+numpy==2.1.1
+
+# NLTK pour le traitement des textes (stopwords)
+nltk==3.8.1
+
+# Requests pour les requêtes HTTP (si besoin)
+requests==2.32.3
+
+# Pour la gestion des fichiers temporaires ou spécifiques au système
+python-dateutil==2.9.0.post0
+pytz==2024.2
+tzdata==2024.1
+
+# Pour le déploiement de l'application, dépendances supplémentaires possibles
+pydeck==0.9.1
+protobuf==5.28.1
+tenacity==8.5.0
+
+# Pour des raisons de sécurité et de gestion des versions
+certifi==2024.8.30
+urllib3==2.2.3
