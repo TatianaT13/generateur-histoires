@@ -1,1 +1,28 @@
+# Ignorer le fichier de configuration contenant des clés API sensibles
 config.py
+
+# Ignorer les environnements virtuels
+env/
+venv/
+ENV/
+
+# Ignorer les fichiers générés par Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorer les fichiers de log et temporaires
+*.log
+*.tmp
+
+# Ignorer les fichiers spécifiques au système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers générés par les éditeurs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorer les fichiers du dossier modèle si nécessaire
+model/
